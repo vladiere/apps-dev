@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="root">
+        <div class="paginate">
+            <div class="page-items">
+                <img src="./assets/search.png" alt="">
+                <input type="text" name="search" id="search" placeholder="Search...">
+                <button id="searchData">Search</button>
+                <select id="itemsperpage">
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="100">100</option>
+                </select>
+            </div>
+            <div class="paginate-pages">
+            </div>
+        </div>
+        <table id="mytable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Body</th>
+                    <th>Share</th>
+                </tr>
+            </thead>
+            <tbody id="table_data">
+
+            </tbody>
+        </table>
+    </div>
+    <div class="for-modal">
+
+    </div>
+    <script src="./rmrl.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
